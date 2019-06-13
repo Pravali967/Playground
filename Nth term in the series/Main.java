@@ -1,0 +1,24 @@
+#include<stdio.h>
+
+int main()
+{
+  // Type your code here
+   int n;
+  scanf("%d",&n);
+  if(n%2==1)
+  {
+    int a=1;
+    int r=2;
+    int term_series = (n+1)/2;
+    int res = 2*(term_series-1);
+      printf("%d",res);
+  }
+  else
+  {
+     int a=1;
+    int r=3;
+    int term_series=n/2;
+    int res=(term_series-1);
+      printf("%d",res);
+  }  
+}
